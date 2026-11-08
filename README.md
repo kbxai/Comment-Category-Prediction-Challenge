@@ -1,5 +1,14 @@
 # Comment Category Prediction Challenge
 
+| | |
+|---|---|
+| **Task** | Multi-class comment category prediction, scored by Macro F1 |
+| **Context** | IITM ML competition |
+| **Result** | Voting ensemble of SGD, bagged Logistic Regression and SVC reached Macro F1 **0.8295**; 8 models compared (LightGBM 0.7386, MLP 0.7460) |
+| **Files** | `notebook.ipynb`, `submission.csv`, `requirements.txt` |
+| **Built with** | AI coding tools (Claude Code, Google Antigravity) |
+
+
 ## Overview
 This project addresses the **Comment Category Prediction Challenge**, where the goal is to predict the final category assigned to each comment using a mix of textual, numerical, and categorical features.
 
